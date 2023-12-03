@@ -19,5 +19,4 @@ public class Circle implements IShape {
         r = s.nextFloat();
         return true;
     }
-
 }

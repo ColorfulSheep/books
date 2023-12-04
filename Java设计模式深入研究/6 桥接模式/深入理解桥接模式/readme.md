@@ -1,0 +1,5 @@
+- 桥接模式强调"包含"代替"继承"
+  - 保存信息到文件 LogFile.java
+  - 保存并加密信息到文件 Encrypt.java
+- 继承中: 当LogFile中的方法变化时,很可能会影响到子类
+- 包含中: Encrypt类型中包含着LogFile类型的成员变量,当LogFile变化时,只要接口方法不改变,就不会影响到Encrypt类

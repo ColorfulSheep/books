@@ -5,4 +5,8 @@ public class TestMain {
         serverProxy.register("calc", serverCalc);
         serverProxy.process(1);
     }
+
+    
+
+
 }

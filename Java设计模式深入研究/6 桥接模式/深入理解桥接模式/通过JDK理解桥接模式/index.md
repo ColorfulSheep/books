@@ -1,0 +1,1 @@
+JDK中有很多地方使用到了桥接模式.例如Collections类中的sort()方法

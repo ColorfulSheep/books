@@ -1,6 +1,6 @@
 public class BuyerProxy implements ITV{
 
-    private Buyer buyer;
+    private Buyer buyer;    // 代理被谁执行
 
     public BuyerProxy(Buyer buyer){
         this.buyer = buyer;
@@ -10,7 +10,7 @@ public class BuyerProxy implements ITV{
     @Override
     public void buyTV() {
        preProcess();
-       buyer.buyTV();;
+       buyer.buyTV();
        postProcess();
         
     }
